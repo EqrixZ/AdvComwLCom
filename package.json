@@ -1,0 +1,30 @@
+{
+  "name": "advcomwlcom",
+  "version": "1.0.0",
+  "description": "Just started.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EqrixZ/AdvComwLCom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EqrixZ/AdvComwLCom/issues"
+  },
+  "homepage": "https://github.com/EqrixZ/AdvComwLCom#readme",
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
